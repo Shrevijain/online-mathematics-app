@@ -56,7 +56,7 @@ function Timer() {
 
     // This is where you need to adjust if
     // you entend to add more time
-    deadline.setSeconds(deadline.getSeconds() + 0);
+    deadline.setSeconds(deadline.getSeconds() + 1800);
     return deadline;
   };
 
